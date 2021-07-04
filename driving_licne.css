@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 1px;
+    background-image: url("f.jpg");
+
+}
+.logo{
+        /* display: inline-block; */
+        /* position: relative; */
+        /* width: 160px;
+        height: 160px; */
+        /* overflow: hidden; */
+        /* border-radius: 50%; */
+        clip-path: circle(35% at 50% 50%);
+}
+/* .logo img{
+    width: fit-content;
+        height: 100%;
+        margin-left: -28px;
+        clip-path: circle(30.7% at 51% 45%);
+} */
+.main_head , h2 , h1
+{
+    text-align: center;
+}
+.container{
+    background-color: #f2f2f2;
+    background-image: url("d.jpg");
+    /* background-repeat: no-repeat; */
+    padding: 5px 20px 15px 20px ;
+    border: 10px solid lightgray;
+    border-radius: 14px;
+    margin: 100px;
+}
+/* li{
+    color: rgb(226, 14, 14);
+} */
+.Instructions{
+    background-color: #b9dc74;
+    padding: 5px 10px 15px 10px ;
+    background-image: url("d.jpg");
+    border: 5px solid rgb(139, 210, 226);
+    border-radius: 14px;
+    margin: 100px;
+}
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+fieldset{
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+input[type="submit"]
+{
+    background-color: #24bd45;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover
+{
+    background-color: #4caf84;
+}
+footer {
+    background-color: rgba(104, 96, 96, 0.378);
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}

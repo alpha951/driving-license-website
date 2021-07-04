@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="driving_licne.css">
+    <style>
+        h1 {
+            
+            color: rgb(110, 59, 182);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 ><img class="logo" src="w.jpg" alt="">  </h1>
+    <h1>Government of India</h1>
+    <h1>MINISTRY OF ROAD TRANSPORT & HIGHWAYS</h1>
+    <div class="Instructions">
+        <h2>Instructions before you proceed:-</h2>
+        <ul>
+            <li>All field are nescessary to be filled.</li>
+            <li>You must be above 18.</li>
+        </ul>
+    </div>
+    <div class="container">
+        <form action="">
+            <h1 class="main_head">INFO. FOR DRIVING LISCENCE</h1>
+            <h2 class="immg"> <img src="g.png" alt="." width="6%"> Personal Info. -</h2>
+            <p>Name : <input type="text" name="name" required placeholder="Name" required></p>
+            <p>D.O.B. <input type="date" name="dob" id="dob" required></p>
+            <fieldset>
+                <legendd>Gender</legendd>
+                <p>
+                    Male <input type="radio" name="gender" id="male">
+                    Female <input type="radio" name="gender" id="female">
+                </p>
+            </fieldset>
+            <p>Address : <textarea name="address" id="address" cols="100" rows="10"
+                    placeholder="Enter your proper address" required></textarea></p>
+            <p>Pin-code : <input type="number " name="pc" id="pc" placeholder="_ _ _ _ _ _" required></p>
+            <h2>Personal Details -</h2>
+            <p>Aadhar card no. : <input type="number" name="acn" id="acn" required
+                    placeholder="_ _ _ _  _ _ _ _  _ _ _ _"></p>
+            <p>Vehicle :   🏍️ 🚌  🚘  🚚
+                <select name="vehicle_type" id="vehicle_type">
+                    <option value="">Select a vehicle type</option>
+                    <option value="Bike">🏍️Bike🏍️</option>
+                    <option value="Bus">🚌Bus🚌</option>
+                    <option value="Car">🚘Car🚘</option>
+                    <option value="Truck">🚚Truck🚚</option>
+                    <option value="None">None</option>
+                </select>
+            </p>
+            <h2>Payment Info. -</h2>
+            <p>Pay via :
+                <select name="card_type" id="card_type">
+                    <option value="">Select a card type</option>
+                    <option value="visa">Visa</option>
+                    <option value="rupay">Rupay</option>
+                    <option value="masterCard">MasterCard</option>
+                </select>
+            </p>
+            <p>
+                Card Number : <input type="number" name="card_number" id="card_number"
+                    placeholder="_ _ _ _ _ _ _ _ _ _ _ _" required>
+            </p>
+            <p>
+                Expiration Date : <input type="date" name="exp_date" id="exp_date" required>
+            </p>
+            <p>
+                CVV :- <input type="password" name="cvv" id="cvv" required>
+            </p>
+            <input type="submit" value="Pay Now">
+        </form>
+    </div>
+    <footer>
+        <a href="#">FAQ</a> &nbsp;&nbsp;&nbsp;
+        <a href="#">Contact Us</a> &nbsp;&nbsp;&nbsp;
+        <a href="#">Terms of use</a> &nbsp;&nbsp;&nbsp;
+        <a href="#">Privacy Policy</a> &nbsp;&nbsp;&nbsp;
+        <a href="#">Refund policy</a> &nbsp;&nbsp;&nbsp;
+        <a href="#">&copy; 2021  |  Apni Duniya</a>
+    </footer>
+</body>
+
+</html>
