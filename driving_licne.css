@@ -41,10 +41,10 @@ body{
     color: rgb(226, 14, 14);
 } */
 .Instructions{
-    background-color: #b9dc74;
+    background-color: #628d0d;
     padding: 5px 10px 15px 10px ;
     background-image: url("d.jpg");
-    border: 5px solid rgb(139, 210, 226);
+    border: 5px solid rgb(153, 13, 218);
     border-radius: 14px;
     margin: 100px;
 }
